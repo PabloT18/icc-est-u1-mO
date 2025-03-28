@@ -4,16 +4,16 @@ public class MetodoBurbujaMejorado {
         int n = arreglo.length;
         int contComparaciones = 0;
         int contCambios = 0;
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - 1 - i; j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
                 // System.out.println("Comparaciones: " + contComparaciones +
                 // "-> " + arreglo[j] + ">" + arreglo[j + 1]);
                 contComparaciones++;
-                if (arreglo[j] > arreglo[j + 1]) {
+                if (arreglo[i] > arreglo[j]) {
                     contCambios++;
-                    int aux = arreglo[j];
-                    arreglo[j] = arreglo[j + 1];
-                    arreglo[j + 1] = aux;
+                    int aux = arreglo[i];
+                    arreglo[i] = arreglo[j];
+                    arreglo[j] = aux;
                 }
             }
             // System.out.print("Estado Actual ->");

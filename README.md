@@ -6,7 +6,7 @@
 - **Título:** Práctica de Algoritmos de Ordenamiento
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
-- **Estudiante:** [Tu Nombre Aquí]
+- **Estudiante:** Juan Perez
 - **Fecha:** [Fecha Actual]
 - **Profesor:** Ing. Pablo Torres
 
