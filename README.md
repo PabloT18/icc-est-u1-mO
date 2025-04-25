@@ -98,5 +98,12 @@ public class Main {
 }
 ```
 
+## Enlaces a Documentación de Métodos
+
+- [Método Burbuja](./docs/MetodoBurbuja.md)
+- [Método Selección](./docs/MetodoSeleccion.md)
+- [Método Inserción](./docs/MetodoInsercion.md)
+- [Método Burbuja Mejorado](./docs/MetodoBurbujaMejorado.md)
+
 ## Conclusión
 Este proyecto permite explorar y comparar diferentes algoritmos de ordenamiento, proporcionando una base sólida para entender sus características, ventajas y desventajas. Es ideal para estudiantes que desean profundizar en el tema de estructuras de datos y algoritmos.
